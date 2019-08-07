@@ -51,7 +51,7 @@ const Main = ({ match }) => {
         <Link to="/">
           <img src={logo} alt="Tindev" />
         </Link>
-        <div className="empty">Carregando...</div>
+        <div className="loading">Carregando...</div>
       </div>
     );
   }
