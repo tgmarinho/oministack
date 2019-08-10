@@ -12,9 +12,9 @@ export default function Login({ history }) {
       username
     });
 
-    const { _id } = response.data;
+    const { _id, name, avatar } = response.data;
 
-    history.push(`/dev/${_id}`);
+    history.push(`/dev/${_id}`, { name, avatar });
   }
 
   return (

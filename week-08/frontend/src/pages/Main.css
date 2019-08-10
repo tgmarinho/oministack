@@ -1,6 +1,27 @@
+.main-welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.main-welcome img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.main-welcome p {
+  font-size: 22px;
+  color: #999;
+}
+
 .main-container {
   max-width: 980px;
-  margin: 0 auto;
+  margin: 0px auto;
   padding: 50px 0;
   text-align: center;
 }
@@ -8,7 +29,7 @@
 .main-container ul {
   list-style: none;
   display: grid;
-  margin: 0 5px;
+  margin: 10px 5px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
   grid-gap: 30px;
 }
@@ -75,4 +96,47 @@
   color: #999;
   font-weight: bold;
   margin-top: 300px;
+}
+
+.match-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.match-container .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: 30px 0;
+}
+
+.match-container strong {
+  font-size: 32px;
+  color: #fff;
+}
+
+.match-container p {
+  margin-top: 10px;
+  font-size: 20px;
+  max-width: 400px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.match-container button {
+  border: 0;
+  background: none;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  margin-top: 30px;
+  cursor: pointer;
 }
