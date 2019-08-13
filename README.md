@@ -10,5 +10,4 @@
 #### This project seems like Tinder
 
 
-* That is it. Would like see more projects from Rocketseat?
-### Github da [Rocketseat](https://github.com/rocketseat)
+* That is it. Would like see more projects from [Rocketseat](https://github.com/rocketseat)?
