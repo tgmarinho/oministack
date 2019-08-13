@@ -3,8 +3,6 @@ const Dev = require("../models/Dev");
 
 module.exports = {
   async index(req, res) {
-    console.log(req.io, req.connectedUsers);
-
     const { user } = req.headers;
 
     const loggedDev = await Dev.findById(user);
