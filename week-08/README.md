@@ -15,15 +15,11 @@ Javascript, Node, Cloud/Compass MongoDB, React, Socket.io, React Native, Axios, 
 - [x] Dislike user
 - [x] Show a message simultaneously when the users is a matched
 
-![TindDev2](assets/itsamatch-mobile-frontend.png)
-
-
-
 ## Check it out
 
 #### Click on the image to redirect to [Youtube](https://www.youtube.com/watch?v=W9r3-v8KATg&feature=youtu.be):
 
-[![TinDev](/assets/dashboard_resp1.png)](https://www.youtube.com/watch?v=W9r3-v8KATg&feature=youtu.be "TinDev")
+[![TinDev](assets/itsamatch-mobile-frontend.png)](https://www.youtube.com/watch?v=W9r3-v8KATg&feature=youtu.be "TinDev")
 
 
 
